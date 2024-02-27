@@ -12,6 +12,7 @@ in
     ./bash.nix
     ./clang.nix
     ./go.nix
+    ./haskell.nix
     ./html.nix
     ./java.nix
     ./kotlin.nix

@@ -275,6 +275,7 @@
               python.enable = overrideable isMaximal;
               plantuml.enable = overrideable isMaximal;
               bash.enable = overrideable isMaximal;
+	      haskell.enable = overrideable true;
 
               # See tidal config
               tidal.enable = overrideable false;
