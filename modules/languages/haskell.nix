@@ -36,7 +36,7 @@ in {
         type = types.bool;
         default = config.vim.languages.enableTreesitter;
       };
-      package = nvim.types.mkGrammarOption pkgs "haskell";
+      package = nvim.options.mkGrammarOption pkgs "haskell";
     };
 
     lsp = {
