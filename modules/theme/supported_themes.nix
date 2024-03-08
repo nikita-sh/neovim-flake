@@ -72,7 +72,8 @@ in
 
     dracula-nvim = {
       setup = ''
-        require('dracula').setup({});
+        require('dracula').setup({
+	});
         require('dracula').load();
       '';
     };
@@ -91,6 +92,46 @@ in
       '';
       styles = [ "dark" "light" ];
       defaultStyle = "dark";
+    };
+
+    monokai-pro = {
+      setup = ''
+        -- monokai 
+	require("monokai-pro").setup({
+          transparent_background = false,
+          terminal_colors = true,
+          devicons = true, 
+          styles = {
+            comment = { italic = true },
+            keyword = { italic = true }, 
+            type = { italic = true }, 
+            storageclass = { italic = true }, 
+            structure = { italic = true }, 
+            parameter = { italic = true }, 
+            annotation = { italic = true },
+            tag_attribute = { italic = true }, 
+          },
+          filter = "pro", 
+          inc_search = "background", 
+          background_clear = {
+            "toggleterm",
+            "telescope",
+            "renamer",
+            "notify",
+          },          
+	  plugins = {
+            bufferline = {
+              underline_selected = false,
+              underline_visible = false,
+            },
+            indent_blankline = {
+              context_highlight = "default", -- default | pro
+              context_start_underline = false,
+            },
+          },
+        })
+        vim.cmd[[colorscheme "monokai-pro"]]
+      '';
     };
   };
 }

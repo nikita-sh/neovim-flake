@@ -44,6 +44,7 @@ in
           "material"
           "modus_vivendi"
           "molokai"
+	  "monokai-pro"
           "nightfly"
           "nord"
           "oceanicnext"

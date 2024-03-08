@@ -496,6 +496,22 @@
         "type": "github"
       }
     },
+    "plugin-monokai-pro": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1707646004,
+        "narHash": "sha256-d2wg0Jm6XJtoK5lVU3rxohwCnfYFxTQ2LclkyzLQM5I=",
+        "owner": "loctvl842",
+        "repo": "monokai-pro.nvim",
+        "rev": "1b9b086df95ad9a6b946c56f65fa2d048297c00b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "loctvl842",
+        "repo": "monokai-pro.nvim",
+        "type": "github"
+      }
+    },
     "plugin-nui-nvim": {
       "flake": false,
       "locked": {
@@ -1110,6 +1126,7 @@
         "plugin-lspkind": "plugin-lspkind",
         "plugin-lspsaga": "plugin-lspsaga",
         "plugin-lualine": "plugin-lualine",
+        "plugin-monokai-pro": "plugin-monokai-pro",
         "plugin-nui-nvim": "plugin-nui-nvim",
         "plugin-null-ls": "plugin-null-ls",
         "plugin-nvim-autopairs": "plugin-nvim-autopairs",

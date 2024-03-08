@@ -170,6 +170,9 @@
     plugin-gruvbox.url = "github:ellisonleao/gruvbox.nvim";
     plugin-gruvbox.flake = false;
 
+    plugin-monokai-pro.url = "github:loctvl842/monokai-pro.nvim";
+    plugin-monokai-pro.flake = false;
+
     # Rust crates
     plugin-crates-nvim.url = "github:Saecki/crates.nvim";
     plugin-crates-nvim.flake = false;
